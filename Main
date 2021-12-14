@@ -1,0 +1,21 @@
+
+package boletin15;
+
+/**
+ *
+ * @author dam1
+ */
+public class Boletin15 {
+
+ 
+    public static void main(String[] args) {
+        Multimedia ml = new Multimedia("titulo", "autor", "formato", "duracion");
+        System.out.println(ml.toString());
+        Disco dc = new Disco("genero", "titulo", "autor", "formato", "duracion");
+        System.out.println(dc.toString());
+        Pelicula pl = new Pelicula("actorPrincipal", "actrizPrincipal", "titulo", "autor", "formato", "duracion");
+        System.out.println(pl.toString());
+      
+    }
+    
+}
